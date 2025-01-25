@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why React?</title>
+    <style>
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 4rem auto;
+        }
+        button {
+            background: none;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="basket-1">
+            <h1><span class="basket-1-apples">100</span></h1>
+            <p>Basket 1</p>
+        </div>
+        <button class="arrow-left">(=)</button>
+        <button class="arrow-right">(=>)</button>
+        <div class="basket-2">
+            <h1><span class="basket-2-apples">0</span></h1>
+            <p>Basket 2</p>
+        </div>
+    </section>
+    <script>
+        const arrowLeft = document.getElementsByClassName('arrow-left')[0];
+        const arrowRight = document.getElementsByClassName('arrow-right')[0];
+        const NoOfApples1 = document.getElementsByClassName('basket-1-apples')[0];
+        const NoOfApples2 = document.getElementsByClassName('basket-2-apples')[0];
+
+        arrowLeft.addEventListener('click', () => {
+            let noApples1 = parseInt(NoOfApples1.textContent);
+            let noApples2 = parseInt(NoOfApples2.textContent);
+
+            if (noApples2 <= 0) return; 
+            NoOfApples1.textContent = noApples1 + 1;
+            NoOfApples2.textContent = noApples2 - 1;
+        });
+
+        arrowRight.addEventListener('click', () => {
+            let noApples1 = parseInt(NoOfApples1.textContent);
+            let noApples2 = parseInt(NoOfApples2.textContent);
+
+            if (noApples1 <= 0) return; 
+            NoOfApples1.textContent = noApples1 - 1;
+            NoOfApples2.textContent = noApples2 + 1;
+        });
+    </script>
+</body>
+</html>
