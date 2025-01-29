@@ -1,11 +1,11 @@
-46
+48
 101F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\redux.legacy-esm.js133825342017930796 0
 70F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\package.json133825342018494986 0
-62F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist133825341752954367 1
+62F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist133825443816935354 1
 89F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\index.ts133825342018286786 0
 99F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\combineReducers.ts133825342018221677 0
-68F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\index.html133825345998991756 0
-67F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\script.js133825431076727968 0
+68F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\index.html133825433490467255 0
+67F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\script.js133825443816503477 0
 95F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\cjs\redux.cjs133825342017895626 0
 75F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\package-lock.json133825342018527087 0
 107F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\utils\symbol-observable.ts133825342018434939 0
@@ -33,7 +33,7 @@
 96F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\utils\kindOf.ts133825342018339655 0
 80F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.672d4772.js133825341752806103 0
 97F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\utils\warning.ts133825342018454929 0
-73F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.html133825341752665707 0
+73F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.html133825435796103799 0
 97F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\types\actions.ts133825342018146448 0
 100F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\types\middleware.ts133825342018349669 0
 98F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\src\types\reducers.ts133825342018369655 0
@@ -41,7 +41,9 @@
 85F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\cjs133825342017980738 1
 103F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\redux.browser.mjs.map133825342017980738 0
 92F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\redux.d.ts133825342018404839 0
+80F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.8cfc62b9.js133825443816910983 0
 91F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\redux.mjs133825342018136445 0
+84F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.8cfc62b9.js.map133825443816935354 0
 95F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\redux.mjs.map133825342018085921 0
 99F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\node_modules\redux\dist\cjs\redux.cjs.map133825342018025950 0
 84F:\reactProcodrr\Redux\00_redux_intro_and_reducer_pattern\dist\index.672d4772.js.map133825341752846136 0
