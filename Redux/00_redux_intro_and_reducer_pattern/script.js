@@ -1,5 +1,6 @@
 
 import {createStore} from 'redux';
+import { myCreateStore } from './my-redux';
 
 
 
@@ -38,7 +39,10 @@ function reducer(state=initialState,action){
 }
 
 const  store=createStore(reducer,window.__REDUX_DEVTOOLS_EXTENSION__?.());
+const myStore=myCreateStore(reducer);
 console.log(store);
+console.log(myStore);
+
 store.subscribe(()=>{
     console.log(store.getState());
 })
